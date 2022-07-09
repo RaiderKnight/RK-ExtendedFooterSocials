@@ -5,7 +5,6 @@
 <p>The social icons are configured via the ACP where you can also adjust the size and shape of the icons.</p>
 <p>The large icons will reduce to the size of the medium icons on small screens.</p>
 <p>Responsive and RTL Compatible.</p>
-<p>Includes an extra style folder for the Prosilver Dark Edition style.</p>
 <br>
 <p><strong>Socials Included:</strong></p>
 <p>Website, Facebook, Twitter, Instagram, Pinterest, YouTube, Dribbble, Codepen, Github, eBay, PayPal, Patreon, Discord, BuyMeACoffee, Twitch.</p>
