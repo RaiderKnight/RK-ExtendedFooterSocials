@@ -21,8 +21,7 @@
 <p>phpBB 3.3.5 or higher</p>
 <p>Iconify SVG framework: https://icon-sets.iconify.design</p>
 <br>
-<p>Make sure you add Iconify SVG framework at the end your overall_footer.html file:</p>
-<p><script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script></p>
+<p>Make sure you add Iconify SVG framework at the end your overall_footer.html file.</p>
 <p><a href="https://docs.iconify.design/icon-components/svg-framework/">Click here for more information about Iconify SVG framework.</a></p>
 <br>
 <hr>
