@@ -1,0 +1,9 @@
+services:
+    raiderknight.rkextendsocial.listener:
+        class: raiderknight\rkextendsocial\event\main_listener
+        arguments:
+            - '@user'
+            - '@template'
+            - '@config'
+        tags:
+            - { name: event.listener }

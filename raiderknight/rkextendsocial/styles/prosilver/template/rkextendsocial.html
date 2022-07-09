@@ -1,0 +1,111 @@
+<div class="rkextendsocial rkextendsocial-{% if RKEXTENDSOCIAL_CRNRS == 1 %}rounded{% endif %}{% if RKEXTENDSOCIAL_CRNRS == 2 %}round{% endif %}-socials">
+	<div class="inner">
+	<ul class="rkextendsocial-{% if RKEXTENDSOCIAL_SZE == 0 %}small{% endif %}{% if RKEXTENDSOCIAL_SZE == 1 %}medium{% endif %}{% if RKEXTENDSOCIAL_SZE == 2 %}large{% endif %}-socials">
+		{% if RKEXTENDSOCIAL_WBST_ENBL %}
+		<li>
+			<a class="rkextendsocial-social rkextendsocial-website" href="{{ RKEXTENDSOCIAL_WBST_URL }}" target="_blank" rel="noopener" title="{{ lang('RKEXTENDSOCIAL_WBST') }}">
+				<i class="icon fa-globe fa-fw" aria-hidden="true"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if RKEXTENDSOCIAL_FCBK_ENBL %}
+		<li>
+			<a class="rkextendsocial-social rkextendsocial-facebook" href="{{ RKEXTENDSOCIAL_FCBK_URL }}" target="_blank" rel="noopener" title="{{ lang('RKEXTENDSOCIAL_FCBK') }}">
+				<i class="icon fa-facebook fa-fw" aria-hidden="true"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if RKEXTENDSOCIAL_TWTR_ENBL %}
+		<li>
+			<a class="rkextendsocial-social rkextendsocial-twitter" href="{{ RKEXTENDSOCIAL_TWTR_URL }}" target="_blank" rel="noopener" title="{{ lang('RKEXTENDSOCIAL_TWTR') }}">
+				<i class="icon fa-twitter fa-fw" aria-hidden="true"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if RKEXTENDSOCIAL_INSTA_ENBL %}
+		<li>
+			<a class="rkextendsocial-social rkextendsocial-instagram" href="{{ RKEXTENDSOCIAL_INSTA_URL }}" target="_blank" rel="noopener" title="{{ lang('RKEXTENDSOCIAL_INSTA') }}">
+				<i class="icon fa-instagram fa-fw" aria-hidden="true"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if RKEXTENDSOCIAL_PNTRST_ENBL %}
+		<li>
+			<a class="rkextendsocial-social rkextendsocial-pinterest" href="{{ RKEXTENDSOCIAL_PNTRST_URL }}" target="_blank" rel="noopener" title="{{ lang('RKEXTENDSOCIAL_PNTRST') }}">
+				<i class="icon fa-pinterest fa-fw" aria-hidden="true"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if RKEXTENDSOCIAL_YTUBE_ENBL %}
+		<li>
+			<a class="rkextendsocial-social rkextendsocial-youtube" href="{{ RKEXTENDSOCIAL_YTUBE_URL }}" target="_blank" rel="noopener" title="{{ lang('RKEXTENDSOCIAL_YTUBE') }}">
+				<i class="icon fa-youtube fa-fw" aria-hidden="true"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if RKEXTENDSOCIAL_DRBL_ENBL %}
+		<li>
+			<a class="rkextendsocial-social rkextendsocial-dribbble" href="{{ RKEXTENDSOCIAL_DRBL_URL }}" target="_blank" rel="noopener" title="{{ lang('RKEXTENDSOCIAL_DRBL') }}">
+				<i class="icon fa-dribbble fa-fw" aria-hidden="true"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if RKEXTENDSOCIAL_CDPEN_ENBL %}
+		<li>
+			<a class="rkextendsocial-social rkextendsocial-codepen" href="{{ RKEXTENDSOCIAL_CDPEN_URL }}" target="_blank" rel="noopener" title="{{ lang('RKEXTENDSOCIAL_CDPEN') }}">
+				<i class="icon fa-codepen fa-fw" aria-hidden="true"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if RKEXTENDSOCIAL_GTHUB_ENBL %}
+		<li>
+			<a class="rkextendsocial-social rkextendsocial-github" href="{{ RKEXTENDSOCIAL_GTHUB_URL }}" target="_blank" rel="noopener" title="{{ lang('RKEXTENDSOCIAL_GTHUB') }}">
+				<i class="icon fa-github fa-fw" aria-hidden="true"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if RKEXTENDSOCIAL_EBAY_ENBL %}
+		<li>
+			<a class="rkextendsocial-social rkextendsocial-ebay" href="{{ RKEXTENDSOCIAL_EBAY_URL }}" target="_blank" rel="noopener" title="{{ lang('RKEXTENDSOCIAL_EBAY') }}">
+				<i class="icon fa-gavel fa-fw" aria-hidden="true"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if RKEXTENDSOCIAL_PYPL_ENBL %}
+		<li>
+			<a class="rkextendsocial-social rkextendsocial-paypal" href="{{ RKEXTENDSOCIAL_PYPL_URL }}" target="_blank" rel="noopener" title="{{ lang('RKEXTENDSOCIAL_PYPL') }}">
+				<i class="icon fa-paypal fa-fw" aria-hidden="true"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if RKEXTENDSOCIAL_DISCO_ENBL %}
+		<li>
+			<a class="rkextendsocial-social rkextendsocial-disco" href="{{ RKEXTENDSOCIAL_DISCO_URL }}" target="_blank" rel="noopener" title="{{ lang('RKEXTENDSOCIAL_DISCO') }}">
+				<span class="iconify" data-icon="fa-brands:discord" style="color: #ffffff;" data-width="22" data-height="22"></span>
+			</a>
+		</li>
+		{% endif %}
+		{% if RKEXTENDSOCIAL_PATREON_ENBL %}
+		<li>
+			<a class="rkextendsocial-social rkextendsocial-patreon" href="{{ RKEXTENDSOCIAL_PATREON_URL }}" target="_blank" rel="noopener" title="{{ lang('RKEXTENDSOCIAL_PATREON') }}">
+				<span class="iconify" data-icon="bxl:patreon" style="color: #ffffff;" data-width="22" data-height="22"></span>
+			</a>
+		</li>
+		{% endif %}
+		{% if RKEXTENDSOCIAL_BMAC_ENBL %}
+		<li>
+			<a class="rkextendsocial-social rkextendsocial-bmac" href="{{ RKEXTENDSOCIAL_BMAC_URL }}" target="_blank" rel="noopener" title="{{ lang('RKEXTENDSOCIAL_BMAC') }}">
+				<span class="iconify" data-icon="simple-icons:buymeacoffee" style="color: #fff;" data-width="22" data-height="22"></span>
+			</a>
+		</li>
+		{% endif %}
+		{% if RKEXTENDSOCIAL_TWITCH_ENBL %}
+		<li>
+			<a class="rkextendsocial-social rkextendsocial-twitch" href="{{ RKEXTENDSOCIAL_TWITCH_URL }}" target="_blank" rel="noopener" title="{{ lang('RKEXTENDSOCIAL_TWITCH') }}">
+				<i class="icon fa-twitch fa-fw" aria-hidden="true"></i>
+			</a>
+		</li>
+		{% endif %}
+	</ul>
+	</div>
+</div>
