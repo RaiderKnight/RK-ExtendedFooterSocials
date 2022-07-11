@@ -1,54 +1,54 @@
 /*	phpBB3 Style Sheet
 	--------------------------------------------------------------
 	phpBB Extension Name:	Extended Footer Socials
-	Extension Version:		1.0.0
-	Last Updated:			01/07/2022
+	Extension Version:		1.0.1
+	Last Updated:			11/07/2022
 	Extension Developer:	raiderknight (https://raiderknight.com)
 	Compatible Style:		Prosilver
 	--------------------------------------------------------------
 */
 
-.rkextendsocial { margin-bottom: 4px; }
-.rkextendsocial ul { display: inline-flex; flex-wrap: wrap; justify-content: center; }
-.rkextendsocial li { list-style: none; }
-.rkextendsocial-rounded-socials .rkextendsocial-social { border-radius: 4px; }
-.rkextendsocial-round-socials .rkextendsocial-social { border-radius: 50%; }
-.rkextendsocial-small-socials .rkextendsocial-social { height: 38px; width: 38px; }
-.rkextendsocial-small-socials .icon { font-size: 22px; }
-.rkextendsocial-medium-socials .rkextendsocial-social { height: 44px; width: 44px; }
-.rkextendsocial-medium-socials .icon { font-size: 26px; }
-.rkextendsocial-large-socials .rkextendsocial-social { height: 50px; width: 50px; }
-.rkextendsocial-large-socials .icon { font-size: 28px; }
-.rkextendsocial-social { align-items: center; display: inline-flex; justify-content: center; margin: 6px; }
-.rkextendsocial-social .icon::before { padding-right: 0; }
-.rkextendsocial-social .icon { color: #FFFFFF; }
-.rkextendsocial-website	{ background-color: #18992C; }
-.rkextendsocial-facebook { background-color: #3B5998; }
-.rkextendsocial-twitter	{ background-color: #00ACED; }
-.rkextendsocial-instagram { background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D); background-color: #BB3689; }
-.rkextendsocial-pinterest { background-color: #B81621; }
-.rkextendsocial-youtube	{ background-color: #DF1C31; }
-.rkextendsocial-dribbble { background-color: #D74579; }
-.rkextendsocial-codepen	{ background-color: #000000; }
-.rkextendsocial-github { background-color: #444444; }
-.rkextendsocial-ebay { background-color: #B39212; }
-.rkextendsocial-paypal { background-color: #27346A; }
+.rkextendsocial {margin-bottom: 4px;}
+.rkextendsocial ul {display: inline-flex; flex-wrap: wrap; justify-content: center;}
+.rkextendsocial li {list-style: none;}
+.rkextendsocial-rounded-socials .rkextendsocial-social {border-radius: 4px;}
+.rkextendsocial-round-socials .rkextendsocial-social {border-radius: 50%;}
+.rkextendsocial-small-socials .rkextendsocial-social {height: 38px; width: 38px;}
+.rkextendsocial-small-socials .icon {font-size: 22px;}
+.rkextendsocial-medium-socials .rkextendsocial-social {height: 44px; width: 44px;}
+.rkextendsocial-medium-socials .icon {font-size: 26px;}
+.rkextendsocial-large-socials .rkextendsocial-social {height: 50px; width: 50px;}
+.rkextendsocial-large-socials .icon {font-size: 28px;}
+.rkextendsocial-social {align-items: center; display: inline-flex; justify-content: center; margin: 6px;}
+.rkextendsocial-social .icon::before {padding-right: 0;}
+.rkextendsocial-social .icon {color: #FFFFFF;}
+.rkextendsocial-website	{background-color: #18992C;}
+.rkextendsocial-facebook {background-color: #3B5998;}
+.rkextendsocial-twitter	{background-color: #00ACED;}
+.rkextendsocial-instagram {background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D); background-color: #BB3689;}
+.rkextendsocial-pinterest {background-color: #B81621;}
+.rkextendsocial-youtube	{background-color: #DF1C31;}
+.rkextendsocial-dribbble {background-color: #D74579;}
+.rkextendsocial-codepen	{background-color: #000000;}
+.rkextendsocial-github {background-color: #444444;}
+.rkextendsocial-ebay {background-color: #B39212;}
+.rkextendsocial-paypal {background-color: #27346A;}
 .rkextendsocial-disco{background-color: #1769aa;}
-.rkextendsocial-small-socials .icon .rkextendsocial-disco {height: 22px;width: 22px;}
-.rkextendsocial-medium-socials .icon .rkextendsocial-disco {height: 26px;width: 26px;}
-.rkextendsocial-large-socials .icon .rkextendsocial-disco {height: 28px;width: 28px;}
 .rkextendsocial-patreon{background-color:#ff424d;}
-.rkextendsocial-small-socials .icon .rkextendsocial-patreon {height: 22px;width: 22px;}
-.rkextendsocial-medium-socials .icon .rkextendsocial-patreon {height: 26px;width: 26px;}
-.rkextendsocial-large-socials .icon .rkextendsocial-patreon {height: 28px;width: 28px;}
 .rkextendsocial-bmac{background-color: #d2a211;}
-.rkextendsocial-small-socials .icon .rkextendsocial-bmac {height: 22px;width: 22px;}
-.rkextendsocial-medium-socials .icon .rkextendsocial-bmac {height: 26px;width: 26px;}
-.rkextendsocial-large-socials .icon .rkextendsocial-bmac {height: 28px;width: 28px;}
-.rkextendsocial-twitch{ background-color:#8C44F7;}
-
-.rkextendsocial-social:focus .icon, .rkextendsocial-social:hover .icon { color: #FFFFFF; transform: rotateZ(360deg); transition: transform 0.4s ease-out; }
-.rkextendsocial-social:focus, .rkextendsocial-social:hover { text-decoration: none; }
-.rkextendsocial-social .icon { transition: all 400ms; }
-@media (max-width: 700px) {.rkextendsocial-large-socials .rkextendsocial-social { height: 44px; width: 44px; } .rkextendsocial-large-socials .icon { font-size: 26px; }}
-.rtl .rkextendsocial-social .icon { padding: 0; }
+.rkextendsocial-twitch{background-color:#8C44F7;}
+.rkextendsocial-linkedin{background-color:#0A66C2;}
+.rkextendsocial-soundcloud{background-color:#FF5500;}
+.rkextendsocial-steam{background-color:#3A6191;}
+.rkextendsocial-reddit{background-color:#FF4500;}
+.rkextendsocial-weibo{background-color:#DF152C;}
+.rkextendsocial-small-socials .iconify {height: 22px;width: 22px;}
+.rkextendsocial-medium-socials .iconify {height: 26px;width: 26px;}
+.rkextendsocial-large-socials .iconify {height: 28px;width: 28px;}
+.rkextendsocial .iconify {transition: all 400ms;}
+.rkextendsocial .iconify:hover {transform: rotateZ(360deg);transition: transform 0.4s ease-out;}
+.rkextendsocial-social:focus .icon, .rkextendsocial-social:hover .icon {color: #FFFFFF; transform: rotateZ(360deg); transition: transform 0.4s ease-out;}
+.rkextendsocial-social:focus, .rkextendsocial-social:hover {text-decoration: none;}
+.rkextendsocial-social .icon {transition: all 400ms;}
+@media (max-width: 700px) {.rkextendsocial-large-socials .rkextendsocial-social {height: 44px; width: 44px;} .rkextendsocial-large-socials .icon {font-size: 26px;}}
+.rtl .rkextendsocial-social .icon {padding: 0;}

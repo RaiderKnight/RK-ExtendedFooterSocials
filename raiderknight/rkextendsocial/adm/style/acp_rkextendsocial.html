@@ -315,6 +315,91 @@ function hide_elements(cat) {
 				<input type="text" name="rkextendsocial_twitch_url" id="rkextendsocial_twitch_url" value="{{ RKEXTENDSOCIAL_TWITCH_URL }}" placeholder="{{ lang('ACP_RKEXTENDSOCIAL_TWITCH_URL_PLCHLDR') }}" size="52%" />
 			</dd>
 		</dl>
+        <dl>
+			<dt>
+				<label for="rkextendsocial_linkedin_enbl">{{ lang('ACP_RKEXTENDSOCIAL_LINKEDIN_ENBL') }}{{ lang('COLON') }}</label>
+			</dt>
+			<dd>
+				<input type="radio" class="radio" name="rkextendsocial_linkedin_enbl" value="1" {% if RKEXTENDSOCIAL_LINKEDIN_ENBL %} id="rkextendsocial_linkedin_enbl" checked="checked"{% endif %}/> {{ lang('YES') }} &nbsp;
+				<input type="radio" class="radio" name="rkextendsocial_linkedin_enbl" value="0" {% if not RKEXTENDSOCIAL_LINKEDIN_ENBL %} id="rkextendsocial_linkedin_enbl" checked="checked"{% endif %}/> {{ lang('NO') }}
+			</dd>
+		</dl>
+		<dl class="extra-space-below">
+			<dt>
+				<label for="rkextendsocial_linkedin_url">{{ lang('ACP_RKEXTENDSOCIAL_LINKEDIN_URL') }}{{ lang('COLON') }}</label>
+			</dt>
+			<dd>
+				<input type="text" name="rkextendsocial_linkedin_url" id="rkextendsocial_linkedin_url" value="{{ RKEXTENDSOCIAL_LINKEDIN_URL }}" placeholder="{{ lang('ACP_RKEXTENDSOCIAL_LINKEDIN_URL_PLCHLDR') }}" size="52%" />
+			</dd>
+		</dl>
+        <dl>
+			<dt>
+				<label for="rkextendsocial_soundcloud_enbl">{{ lang('ACP_RKEXTENDSOCIAL_SOUNDCLOUD_ENBL') }}{{ lang('COLON') }}</label>
+			</dt>
+			<dd>
+				<input type="radio" class="radio" name="rkextendsocial_soundcloud_enbl" value="1" {% if RKEXTENDSOCIAL_SOUNDCLOUD_ENBL %} id="rkextendsocial_soundcloud_enbl" checked="checked"{% endif %}/> {{ lang('YES') }} &nbsp;
+				<input type="radio" class="radio" name="rkextendsocial_soundcloud_enbl" value="0" {% if not RKEXTENDSOCIAL_SOUNDCLOUD_ENBL %} id="rkextendsocial_soundcloud_enbl" checked="checked"{% endif %}/> {{ lang('NO') }}
+			</dd>
+		</dl>
+		<dl class="extra-space-below">
+			<dt>
+				<label for="rkextendsocial_soundcloud_url">{{ lang('ACP_RKEXTENDSOCIAL_SOUNDCLOUD_URL') }}{{ lang('COLON') }}</label>
+			</dt>
+			<dd>
+				<input type="text" name="rkextendsocial_soundcloud_url" id="rkextendsocial_soundcloud_url" value="{{ RKEXTENDSOCIAL_SOUNDCLOUD_URL }}" placeholder="{{ lang('ACP_RKEXTENDSOCIAL_SOUNDCLOUD_URL_PLCHLDR') }}" size="52%" />
+			</dd>
+		</dl>
+        <dl>
+			<dt>
+				<label for="rkextendsocial_steam_enbl">{{ lang('ACP_RKEXTENDSOCIAL_STEAM_ENBL') }}{{ lang('COLON') }}</label>
+			</dt>
+			<dd>
+				<input type="radio" class="radio" name="rkextendsocial_steam_enbl" value="1" {% if RKEXTENDSOCIAL_STEAM_ENBL %} id="rkextendsocial_steam_enbl" checked="checked"{% endif %}/> {{ lang('YES') }} &nbsp;
+				<input type="radio" class="radio" name="rkextendsocial_steam_enbl" value="0" {% if not RKEXTENDSOCIAL_STEAM_ENBL %} id="rkextendsocial_steam_enbl" checked="checked"{% endif %}/> {{ lang('NO') }}
+			</dd>
+		</dl>
+		<dl class="extra-space-below">
+			<dt>
+				<label for="rkextendsocial_steam_url">{{ lang('ACP_RKEXTENDSOCIAL_STEAM_URL') }}{{ lang('COLON') }}</label>
+			</dt>
+			<dd>
+				<input type="text" name="rkextendsocial_steam_url" id="rkextendsocial_steam_url" value="{{ RKEXTENDSOCIAL_STEAM_URL }}" placeholder="{{ lang('ACP_RKEXTENDSOCIAL_STEAM_URL_PLCHLDR') }}" size="52%" />
+			</dd>
+		</dl>
+        <dl>
+			<dt>
+				<label for="rkextendsocial_reddit_enbl">{{ lang('ACP_RKEXTENDSOCIAL_REDDIT_ENBL') }}{{ lang('COLON') }}</label>
+			</dt>
+			<dd>
+				<input type="radio" class="radio" name="rkextendsocial_reddit_enbl" value="1" {% if RKEXTENDSOCIAL_REDDIT_ENBL %} id="rkextendsocial_reddit_enbl" checked="checked"{% endif %}/> {{ lang('YES') }} &nbsp;
+				<input type="radio" class="radio" name="rkextendsocial_reddit_enbl" value="0" {% if not RKEXTENDSOCIAL_REDDIT_ENBL %} id="rkextendsocial_reddit_enbl" checked="checked"{% endif %}/> {{ lang('NO') }}
+			</dd>
+		</dl>
+		<dl class="extra-space-below">
+			<dt>
+				<label for="rkextendsocial_reddit_url">{{ lang('ACP_RKEXTENDSOCIAL_REDDIT_URL') }}{{ lang('COLON') }}</label>
+			</dt>
+			<dd>
+				<input type="text" name="rkextendsocial_reddit_url" id="rkextendsocial_reddit_url" value="{{ RKEXTENDSOCIAL_REDDIT_URL }}" placeholder="{{ lang('ACP_RKEXTENDSOCIAL_REDDIT_URL_PLCHLDR') }}" size="52%" />
+			</dd>
+		</dl>
+        <dl>
+			<dt>
+				<label for="rkextendsocial_weibo_enbl">{{ lang('ACP_RKEXTENDSOCIAL_WEIBO_ENBL') }}{{ lang('COLON') }}</label>
+			</dt>
+			<dd>
+				<input type="radio" class="radio" name="rkextendsocial_weibo_enbl" value="1" {% if RKEXTENDSOCIAL_WEIBO_ENBL %} id="rkextendsocial_weibo_enbl" checked="checked"{% endif %}/> {{ lang('YES') }} &nbsp;
+				<input type="radio" class="radio" name="rkextendsocial_weibo_enbl" value="0" {% if not RKEXTENDSOCIAL_WEIBO_ENBL %} id="rkextendsocial_weibo_enbl" checked="checked"{% endif %}/> {{ lang('NO') }}
+			</dd>
+		</dl>
+		<dl class="extra-space-below">
+			<dt>
+				<label for="rkextendsocial_weibo_url">{{ lang('ACP_RKEXTENDSOCIAL_WEIBO_URL') }}{{ lang('COLON') }}</label>
+			</dt>
+			<dd>
+				<input type="text" name="rkextendsocial_weibo_url" id="rkextendsocial_weibo_url" value="{{ RKEXTENDSOCIAL_WEIBO_URL }}" placeholder="{{ lang('ACP_RKEXTENDSOCIAL_WEIBO_URL_PLCHLDR') }}" size="52%" />
+			</dd>
+		</dl>
 		</div>
 	</fieldset>
 	<fieldset>

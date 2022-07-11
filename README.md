@@ -7,7 +7,8 @@
 <p>Responsive and RTL Compatible.</p>
 <br>
 <p><strong>Socials Included:</strong></p>
-<p>Website, Facebook, Twitter, Instagram, Pinterest, YouTube, Dribbble, Codepen, Github, eBay, PayPal, Patreon, Discord, BuyMeACoffee, Twitch.</p>
+<p>Website, Facebook, Twitter, Instagram, Pinterest, YouTube, Dribbble, Codepen, Github, eBay, PayPal,<br> 
+Patreon, Discord, BuyMeACoffee, Twitch, LinkedIn, SoundClound, Weibo, Reddit, Steam.</p>
 <br>
 <p><strong>Size Options:</strong></p>
 <p>Small, Medium, Large.</p>
@@ -41,7 +42,7 @@
 <br>
 <h3>Acknowledgements</h3>
 <p>Extension based on Basic Footer Socials (https://www.phpbb.com/customise/db/extension/bscftrscls/)</p>
-<p>Differences between the two versions: Adds 4 new social media icons, Use overall_footer_copyright_append instead of overall_footer_copyright_prepend, need iconify to works.</p>
+<p>Differences between the two versions: Adds 9 new social media icons, Use overall_footer_copyright_append instead of overall_footer_copyright_prepend, need iconify to works.</p>
 <br>
 <hr>
 <br>

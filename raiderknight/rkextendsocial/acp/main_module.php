@@ -80,7 +80,21 @@ var $u_action;
 
 		$config->set('rkextendsocial_twitch_enbl',		$request->variable('rkextendsocial_twitch_enbl', 0));
 		$config->set('rkextendsocial_twitch_url',			$request->variable('rkextendsocial_twitch_url', ''));
-        
+
+        $config->set('rkextendsocial_linkedin_enbl',		$request->variable('rkextendsocial_linkedin_enbl', 0));
+		$config->set('rkextendsocial_linkedin_url',			$request->variable('rkextendsocial_linkedin_url', ''));
+
+        $config->set('rkextendsocial_soundcloud_enbl',		$request->variable('rkextendsocial_soundcloud_enbl', 0));
+		$config->set('rkextendsocial_soundcloud_url',		$request->variable('rkextendsocial_soundcloud_url', ''));
+
+		$config->set('rkextendsocial_steam_enbl',		$request->variable('rkextendsocial_steam_enbl', 0));
+		$config->set('rkextendsocial_steam_url',		$request->variable('rkextendsocial_steam_url', ''));
+
+		$config->set('rkextendsocial_reddit_enbl',		$request->variable('rkextendsocial_reddit_enbl', 0));
+		$config->set('rkextendsocial_reddit_url',			$request->variable('rkextendsocial_reddit_url', ''));
+
+		$config->set('rkextendsocial_weibo_enbl',		$request->variable('rkextendsocial_weibo_enbl', 0));
+		$config->set('rkextendsocial_weibo_url',			$request->variable('rkextendsocial_weibo_url', ''));
 
 		trigger_error($user->lang('ACP_RKEXTENDSOCIAL_SAVED') . adm_back_link($this->u_action));
 		}
@@ -136,6 +150,21 @@ var $u_action;
 
 			'RKEXTENDSOCIAL_TWITCH_ENBL'	=> $config['rkextendsocial_twitch_enbl'],
 			'RKEXTENDSOCIAL_TWITCH_URL'		=> $config['rkextendsocial_twitch_url'],
+            
+            'RKEXTENDSOCIAL_LINKEDIN_ENBL'		=> $config['rkextendsocial_linkedin_enbl'],
+            'RKEXTENDSOCIAL_LINKEDIN_URL'		=> $config['rkextendsocial_linkedin_url'],
+
+            'RKEXTENDSOCIAL_SOUNDCLOUD_ENBL'	=> $config['rkextendsocial_soundcloud_enbl'],
+            'RKEXTENDSOCIAL_SOUNDCLOUD_URL'		=> $config['rkextendsocial_soundcloud_url'],
+
+            'RKEXTENDSOCIAL_STEAM_ENBL'		=> $config['rkextendsocial_steam_enbl'],
+            'RKEXTENDSOCIAL_STEAM_URL'		=> $config['rkextendsocial_steam_url'],
+
+            'RKEXTENDSOCIAL_REDDIT_ENBL'	=> $config['rkextendsocial_reddit_enbl'],
+            'RKEXTENDSOCIAL_REDDIT_URL'		=> $config['rkextendsocial_reddit_url'],
+
+            'RKEXTENDSOCIAL_WEIBO_ENBL'		=> $config['rkextendsocial_weibo_enbl'],
+            'RKEXTENDSOCIAL_WEIBO_URL'		=> $config['rkextendsocial_weibo_url'],
 
 			'U_ACTION'					=> $this->u_action,
 		));

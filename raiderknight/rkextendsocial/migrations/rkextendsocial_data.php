@@ -70,6 +70,21 @@ class rkextendsocial_data extends \phpbb\db\migration\migration
 
 			array('config.add',		array('raiderknight_twitch_enbl', '')),
 			array('config.add',		array('raiderknight_twitch_url', '')),
+
+            array('config.add',		array('raiderknight_linkedin_enbl', '')),
+			array('config.add',		array('raiderknight_linkedin_url', '')),
+
+            array('config.add',		array('raiderknight_soundcloud_enbl', '')),
+			array('config.add',		array('raiderknight_soundcloud_url', '')),
+			
+			array('config.add',		array('raiderknight_steam_enbl', '')),
+			array('config.add',		array('raiderknight_steam_url', '')),
+
+			array('config.add',		array('raiderknight_reddit_enbl', '')),
+			array('config.add',		array('raiderknight_reddit_url', '')),
+
+			array('config.add',		array('raiderknight_weibo_enbl', '')),
+			array('config.add',		array('raiderknight_weibo_url', '')),
 		);
 	}
 }

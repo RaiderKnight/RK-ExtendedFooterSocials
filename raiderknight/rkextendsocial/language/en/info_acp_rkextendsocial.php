@@ -97,5 +97,25 @@ $lang = array_merge($lang, array(
 	'ACP_RKEXTENDSOCIAL_TWITCH_URL'				=> 'Twitch URL',
 	'ACP_RKEXTENDSOCIAL_TWITCH_URL_PLCHLDR'		=> 'https://www.twitch.tv/your-username-here/',
 
+    'ACP_RKEXTENDSOCIAL_LINKEDIN_ENBL'			=> 'Enable LinkedIn social',
+	'ACP_RKEXTENDSOCIAL_LINKEDIN_URL'			=> 'LinkedIn URL',
+	'ACP_RKEXTENDSOCIAL_LINKEDIN_URL_PLCHLDR'	=> 'https://www.linkedin.com/your-username-here/',
+    
+    'ACP_RKEXTENDSOCIAL_SOUNDCLOUD_ENBL'		=> 'Enable SoundCloud social',
+	'ACP_RKEXTENDSOCIAL_SOUNDCLOUD_URL'			=> 'SoundCloud URL',
+	'ACP_RKEXTENDSOCIAL_SOUNDCLOUD_URL_PLCHLDR'	=> 'https://soundcloud.com/your-username-here/',
+
+	'ACP_RKEXTENDSOCIAL_STEAM_ENBL'			    => 'Enable Steam social',
+	'ACP_RKEXTENDSOCIAL_STEAM_URL'			    => 'Steam URL',
+	'ACP_RKEXTENDSOCIAL_STEAM_URL_PLCHLDR'	    => 'https://www.steam.com/your-username-here/',
+
+	'ACP_RKEXTENDSOCIAL_REDDIT_ENBL'		    => 'Enable Reddit social',
+	'ACP_RKEXTENDSOCIAL_REDDIT_URL'				=> 'Reddit URL',
+	'ACP_RKEXTENDSOCIAL_REDDIT_URL_PLCHLDR'		=> 'https://www.reddit.com/your-username-here/',
+
+	'ACP_RKEXTENDSOCIAL_WEIBO_ENBL'			    => 'Enable Sina Weibo social',
+	'ACP_RKEXTENDSOCIAL_WEIBO_URL'				=> 'Weibo URL',
+	'ACP_RKEXTENDSOCIAL_WEIBO_URL_PLCHLDR'		=> 'https://www.weibo.com/your-username-here/',
+
 	'ACP_RKEXTENDSOCIAL_SAVED'					=> 'Extension settings updated successfully.',
 ));

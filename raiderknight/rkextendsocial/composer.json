@@ -1,10 +1,10 @@
 {
     "name": "raiderknight/rkextendsocial",
     "type": "phpbb-extension",
-    "description": "This extension allows you to add some basic Font Awesome socials to the forum footer, the social links can be set up via the ACP.",
-    "version": "1.0.0",
-    "time": "2022-02-01",
-    "license": "GPL-2.0-only",
+    "description": "This extension allows you to add some Font Awesome and iconify social icons to the forum footer, the social links can be set up via the ACP.",
+    "version": "1.0.1",
+    "time": "2022-07-11",
+    "license": "M.I.T",
     "authors": [
         {
             "name": "RaiderKnight",

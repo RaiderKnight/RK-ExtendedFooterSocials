@@ -88,14 +88,30 @@ class main_listener implements EventSubscriberInterface
         'RKEXTENDSOCIAL_DISCO_ENBL'		=> $this->config['rkextendsocial_disco_enbl'],
 		'RKEXTENDSOCIAL_DISCO_URL'		=> $this->config['rkextendsocial_disco_url'],
 
-		'RKEXTENDSOCIAL_PATREON_ENBL'		=> $this->config['rkextendsocial_patreon_enbl'],
-		'RKEXTENDSOCIAL_PATREON_URL'		=> $this->config['rkextendsocial_patreon_url'],
+		'RKEXTENDSOCIAL_PATREON_ENBL'	=> $this->config['rkextendsocial_patreon_enbl'],
+		'RKEXTENDSOCIAL_PATREON_URL'	=> $this->config['rkextendsocial_patreon_url'],
 
 		'RKEXTENDSOCIAL_BMAC_ENBL'		=> $this->config['rkextendsocial_bmac_enbl'],
 		'RKEXTENDSOCIAL_BMAC_URL'		=> $this->config['rkextendsocial_bmac_url'],
 
-		'RKEXTENDSOCIAL_TWITCH_ENBL'		=> $this->config['rkextendsocial_twitch_enbl'],
+		'RKEXTENDSOCIAL_TWITCH_ENBL'	=> $this->config['rkextendsocial_twitch_enbl'],
 		'RKEXTENDSOCIAL_TWITCH_URL'		=> $this->config['rkextendsocial_twitch_url'],
+
+		'RKEXTENDSOCIAL_LINKEDIN_ENBL'		=> $this->config['rkextendsocial_linkedin_enbl'],
+		'RKEXTENDSOCIAL_LINKEDIN_URL'		=> $this->config['rkextendsocial_linkedin_url'],
+
+        'RKEXTENDSOCIAL_SOUNDCLOUD_ENBL'	=> $this->config['rkextendsocial_soundcloud_enbl'],
+		'RKEXTENDSOCIAL_SOUNDCLOUD_URL'		=> $this->config['rkextendsocial_soundcloud_url'],
+
+		'RKEXTENDSOCIAL_STEAM_ENBL'		=> $this->config['rkextendsocial_steam_enbl'],
+		'RKEXTENDSOCIAL_STEAM_URL'		=> $this->config['rkextendsocial_steam_url'],
+
+		'RKEXTENDSOCIAL_REDDIT_ENBL'	=> $this->config['rkextendsocial_reddit_enbl'],
+		'RKEXTENDSOCIAL_REDDIT_URL'		=> $this->config['rkextendsocial_reddit_url'],
+
+		'RKEXTENDSOCIAL_WEIBO_ENBL'		=> $this->config['rkextendsocial_weibo_enbl'],
+		'RKEXTENDSOCIAL_WEIBO_URL'		=> $this->config['rkextendsocial_weibo_url'],
+
 		));
 	}
 

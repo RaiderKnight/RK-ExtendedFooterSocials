@@ -1,46 +1,46 @@
 /*	phpBB3 Style Sheet
 	--------------------------------------------------------------
 	phpBB Extension Name:	Extended Footer Socials
-	Extension Version:		1.0.0
-	Last Updated:			01/07/2022
+	Extension Version:		1.0.1
+	Last Updated:			11/07/2022
 	Extension Developer:	RaiderKnight (https://raiderknight.com)
 	Style Sheet Purpose:	ACP Settings Page Styling
 	--------------------------------------------------------------
 */
 
-#acp_rkextendsocial .button { border: 0; border-radius: 50px; color: #FFFFFF; font-family: arial; font-size: 1.2em; font-weight: bold; letter-spacing: 1px; line-height: inherit; padding: 8px 10px; margin: 0 6px; }
-#acp_rkextendsocial .button:hover { cursor: pointer; }
-#acp_rkextendsocial .button .icon { color: #FFFFFF; font-size: inherit; font-weight: normal; }
-#acp_rkextendsocial .button.reset-button { background: #2575E1; }
-#acp_rkextendsocial .button.reset-button:focus, #acp_rkextendsocial .button.reset-button:hover { background: #3084F7; }
-#acp_rkextendsocial .button.submit-button { background: #01A46E; }
-#acp_rkextendsocial .button.submit-button:focus, #acp_rkextendsocial .button.submit-button:hover { background: #0BBD82; }
-#acp_rkextendsocial .button.reset-button span { padding: 0 2px 0 3px; }
-#acp_rkextendsocial .button.submit-button span { padding: 0 2px; }
-#acp_rkextendsocial .collapse-buttons { float: right; margin-bottom: 4px; }
-#acp_rkextendsocial .collapse-buttons a { float: left; text-decoration: none; }
-#acp_rkextendsocial .collapse-buttons .icon { font-size: 20px; line-height: 0.7em; padding: 0 6px; }
-#acp_rkextendsocial .fa-minus-circle.icon { color: #2575E1; }
-#acp_rkextendsocial .fa-minus-circle:hover.icon { color: #3888F4; }
-#acp_rkextendsocial .fa-plus-circle.icon { color: #01A46E; }
-#acp_rkextendsocial .fa-plus-circle:hover.icon { color: #10C68A; }
-#acp_rkextendsocial .submit-buttons { margin-bottom: 4px; margin-top: 0; }
-#acp_rkextendsocial dl, #acp_rkextendsocial optgroup, #acp_rkextendsocial select { font-family: arial; }
-#acp_rkextendsocial dl.extra-space-below { margin-bottom: 30px; }
-#acp_rkextendsocial dt label { color: #5E5E5E; font-size: 1.2em; }
-#acp_rkextendsocial dt span { color: #3460C8; font-size: 1.2em; }
-#acp_rkextendsocial fieldset { border-color: #DDDDDD; border-radius: 0; }
-#acp_rkextendsocial fieldset dd, #acp_rkextendsocial input { font-family: arial; font-size: 1.1em; }
-#acp_rkextendsocial fieldset dl { clear: both; }
-#acp_rkextendsocial fieldset dl:hover dt label { color: #8E8C8C; }
-#acp_rkextendsocial legend { color: #282828; font-family: arial; font-size: 1em; line-height: 1.1em; padding-right: 6px; }
-#acp_rkextendsocial legend .icon { color: #737373; float: left; font-size: 20px; line-height: 0.7em; padding: 0 6px; }
-#collapsible-1 { display: none; }
-.rtl #acp_rkextendsocial .collapse-buttons { float: left; }
-.rtl #acp_rkextendsocial .collapse-buttons a { float: right; }
-.rtl #acp_rkextendsocial .icon { float: right; }
+#acp_rkextendsocial .button {border: 0; border-radius: 50px; color: #FFFFFF; font-family: arial; font-size: 1.2em; font-weight: bold; letter-spacing: 1px; line-height: inherit; padding: 8px 10px; margin: 0 6px;}
+#acp_rkextendsocial .button:hover {cursor: pointer;}
+#acp_rkextendsocial .button .icon {color: #FFFFFF; font-size: inherit; font-weight: normal;}
+#acp_rkextendsocial .button.reset-button {background: #2575E1;}
+#acp_rkextendsocial .button.reset-button:focus, #acp_rkextendsocial .button.reset-button:hover {background: #3084F7;}
+#acp_rkextendsocial .button.submit-button {background: #01A46E;}
+#acp_rkextendsocial .button.submit-button:focus, #acp_rkextendsocial .button.submit-button:hover {background: #0BBD82;}
+#acp_rkextendsocial .button.reset-button span {padding: 0 2px 0 3px;}
+#acp_rkextendsocial .button.submit-button span {padding: 0 2px;}
+#acp_rkextendsocial .collapse-buttons {float: right; margin-bottom: 4px;}
+#acp_rkextendsocial .collapse-buttons a {float: left; text-decoration: none;}
+#acp_rkextendsocial .collapse-buttons .icon {font-size: 20px; line-height: 0.7em; padding: 0 6px;}
+#acp_rkextendsocial .fa-minus-circle.icon {color: #2575E1;}
+#acp_rkextendsocial .fa-minus-circle:hover.icon {color: #3888F4;}
+#acp_rkextendsocial .fa-plus-circle.icon {color: #01A46E;}
+#acp_rkextendsocial .fa-plus-circle:hover.icon {color: #10C68A;}
+#acp_rkextendsocial .submit-buttons {margin-bottom: 4px; margin-top: 0;}
+#acp_rkextendsocial dl, #acp_rkextendsocial optgroup, #acp_rkextendsocial select {font-family: arial;}
+#acp_rkextendsocial dl.extra-space-below {margin-bottom: 30px;}
+#acp_rkextendsocial dt label {color: #5E5E5E; font-size: 1.2em;}
+#acp_rkextendsocial dt span {color: #3460C8; font-size: 1.2em;}
+#acp_rkextendsocial fieldset {border-color: #DDDDDD; border-radius: 0;}
+#acp_rkextendsocial fieldset dd, #acp_rkextendsocial input {font-family: arial; font-size: 1.1em;}
+#acp_rkextendsocial fieldset dl {clear: both;}
+#acp_rkextendsocial fieldset dl:hover dt label {color: #8E8C8C;}
+#acp_rkextendsocial legend {color: #282828; font-family: arial; font-size: 1em; line-height: 1.1em; padding-right: 6px;}
+#acp_rkextendsocial legend .icon {color: #737373; float: left; font-size: 20px; line-height: 0.7em; padding: 0 6px;}
+#collapsible-1 {display: none;}
+.rtl #acp_rkextendsocial .collapse-buttons {float: left;}
+.rtl #acp_rkextendsocial .collapse-buttons a {float: right;}
+.rtl #acp_rkextendsocial .icon {float: right;}
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
-	#acp_rkextendsocial .collapse-buttons { margin-bottom: 6px; }
-	#acp_rkextendsocial fieldset { margin-bottom: 20px; }
-	#acp_rkextendsocial fieldset dt { padding-bottom: 5px; }
+	#acp_rkextendsocial .collapse-buttons {margin-bottom: 6px;}
+	#acp_rkextendsocial fieldset {margin-bottom: 20px;}
+	#acp_rkextendsocial fieldset dt {padding-bottom: 5px;}
 }
