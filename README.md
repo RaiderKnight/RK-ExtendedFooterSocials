@@ -28,7 +28,7 @@ Patreon, Discord, BuyMeACoffee, Twitch, LinkedIn, SoundClound, Weibo, Reddit, St
 <hr>
 <br>
 <h3>Contributing</h3>
-<p>Visit the <a href="https://lifeplay.site">Raider Knight community forums</a> or my <a href="https://discord.gg/d3U9E2wb4Y">Discord</a> server for help, to submit a bug, to contribute to the improvement of the application or just to chat!</p>
+<p>Visit the <a href="https://forums.raiderknight.com">Raider Knight community forums</a> or my <a href="https://discord.gg/d3U9E2wb4Y">Discord</a> server for help, to submit a bug, to contribute to the improvement of the application or just to chat!</p>
 <br>
 <hr>
 <br>
